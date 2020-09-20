@@ -1,8 +1,6 @@
 #!/bin/bash
 
 #----INIT----
-cat welcome
-echo
 echo 'Start installation...'
 echo 'Updating source lists...'
 sudo apt-get update
