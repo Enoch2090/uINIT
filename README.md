@@ -7,4 +7,4 @@ Select the needed packages, and click "Download shell script". The selection box
 ![Example](medias/example.gif)
 
 ## Contribute to this project
-Write package installation scripts following `sh/template.sh`, and make a pull request.
+Write package installation scripts following `sh/template.sh`, and make a pull request. See [Enoch2090](https://github.com/Enoch2090)/[uINIT](https://github.com/Enoch2090/uINIT).
