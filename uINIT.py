@@ -1,6 +1,8 @@
 import streamlit as st
 import os
 import base64
+
+
 # ----------------Data----------------
 enviro_list = []
 if not os.path.exists("sh/packages"):
@@ -98,10 +100,9 @@ elif option == 'About':
     [Enoch2090](https://enoch2090.me).
     '''
 # ----------------Hide Development Menu----------------
-hide_streamlit_style = """
-            <style>
-            # MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            </style>
-            """
-st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+hide_menu_style = """
+        <style>
+        #MainMenu {visibility: hidden;}
+        </style>
+        """
+st.markdown(hide_menu_style, unsafe_allow_html=True)
